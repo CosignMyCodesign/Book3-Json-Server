@@ -1,0 +1,60 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Linguine",
+      "type": "pasta",
+      "ethnicity": "italian"
+    },
+    {
+      "name": "red curry",
+      "type": "curry",
+      "ethnicity": "thai",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Green curry",
+      "type": "curry",
+      "ethnicity": "thai"
+    },
+    {
+      "id": 4,
+      "name": "Ravioli Funghi",
+      "type": "pasta",
+      "ethnicity": "italian"
+    },
+    {
+      "id": 5,
+      "name": "Tuscan Soup",
+      "type": "vegetarian",
+      "ethnicity": "italian"
+    },
+    {
+      "name": "Chicken Tacos",
+      "type": "Delicious",
+      "ethnicity": "Mexican",
+      "id": 7
+    },
+    {
+      "name": "Baked Potato",
+      "type": "Side-item",
+      "ethnicity": "Idahoian",
+      "id": 8
+    },
+    {
+      "name": "lasagna",
+      "type": "pasta",
+      "ethnicity": "Italian",
+      "id": 9
+    }
+  ],
+  "drink": [
+    {
+      "name": "sweet-tea",
+      "type": "brown",
+      "ethnicity": "Bostonian",
+      "id": 1
+    }
+  ]
+}
