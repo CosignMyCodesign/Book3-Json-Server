@@ -5,18 +5,17 @@ const makeFoodListComponent = (name, ethnicity, type) => {
   foodSection.classList.add("foodItem")
   foodSection.innerHTML = `
     <h2>${name}</h2>
-    <h5>${ethnicity}</h5>
-    <h5>${type}</h5>
+    <h6>${ethnicity}</h6>
+    <h6>${type}</h6>
   `
   return foodSection
 }
 
 // function to insert HTML representation into the DOM
 const renderFoodList = (food) => {
-  let foodMan = document.querySelector(".foodList")
+  let foodMan = document.querySelector(".foodlist")
   foodMan.appendChild(food)
 }
-
 
 
 // A function to bring it all together
