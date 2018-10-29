@@ -3,32 +3,32 @@
     {
       "id": 1,
       "name": "Linguine",
-      "type": "pasta",
-      "ethnicity": "italian"
+      "type": "Pasta",
+      "ethnicity": "Italian"
     },
     {
-      "name": "red curry",
-      "type": "curry",
-      "ethnicity": "thai",
+      "name": "Red Curry",
+      "type": "Curry",
+      "ethnicity": "Thai",
       "id": 2
     },
     {
       "id": 3,
-      "name": "Green curry",
-      "type": "curry",
-      "ethnicity": "thai"
+      "name": "Green Curry",
+      "type": "Curry",
+      "ethnicity": "Thai"
     },
     {
       "id": 4,
       "name": "Ravioli Funghi",
-      "type": "pasta",
-      "ethnicity": "italian"
+      "type": "Pasta",
+      "ethnicity": "Italian"
     },
     {
       "id": 5,
       "name": "Tuscan Soup",
-      "type": "vegetarian",
-      "ethnicity": "italian"
+      "type": "Vegetarian",
+      "ethnicity": "Italian"
     },
     {
       "name": "Chicken Tacos",
@@ -43,16 +43,22 @@
       "id": 8
     },
     {
-      "name": "lasagna",
-      "type": "pasta",
+      "name": "Lasagna",
+      "type": "Pasta",
       "ethnicity": "Italian",
       "id": 9
+    },
+    {
+      "name": "Chili",
+      "type": "White-chicken",
+      "ethnicity": "American",
+      "id": 10
     }
   ],
   "drink": [
     {
-      "name": "sweet-tea",
-      "type": "brown",
+      "name": "Sweet-Tea",
+      "type": "Brown",
       "ethnicity": "Bostonian",
       "id": 1
     }

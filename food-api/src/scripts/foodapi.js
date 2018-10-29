@@ -1,12 +1,14 @@
 
-// Function for string template
+// Function for creating the element
 const makeFoodListComponent = (name, ethnicity, type) => {
   let foodSection = document.createElement("section")
   foodSection.classList.add("foodItem")
   foodSection.innerHTML = `
+    <div class="foodDiv">
     <h2>${name}</h2>
     <h6>${ethnicity}</h6>
     <h6>${type}</h6>
+    </div>
   `
   return foodSection
 }
