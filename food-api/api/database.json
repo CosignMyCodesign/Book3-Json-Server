@@ -2,59 +2,75 @@
   "food": [
     {
       "id": 1,
-      "name": "Linguine",
-      "type": "pasta",
-      "ethnicity": "italian"
+      "name": "Spinach and Chive Linguine",
+      "type": "Pasta",
+      "ethnicity": "Italian",
+      "barcode": "00286565"
     },
     {
-      "name": "red curry",
-      "type": "curry",
-      "ethnicity": "thai",
-      "id": 2
+      "id": 2,
+      "name": "Red Curry",
+      "type": "Curry",
+      "ethnicity": "Thai",
+      "barcode": "00273619"
     },
     {
       "id": 3,
-      "name": "Green curry",
-      "type": "curry",
-      "ethnicity": "thai"
+      "name": "Green Curry",
+      "type": "Curry",
+      "ethnicity": "Thai",
+      "barcode": "0044738102353"
     },
     {
       "id": 4,
       "name": "Ravioli Funghi",
-      "type": "pasta",
-      "ethnicity": "italian"
+      "type": "Pasta",
+      "ethnicity": "Italian",
+      "barcode": "8001665127585"
     },
     {
       "id": 5,
       "name": "Tuscan Soup",
-      "type": "vegetarian",
-      "ethnicity": "italian"
+      "type": "Vegetarian",
+      "ethnicity": "Italian",
+      "barcode": "0033150001153"
     },
     {
+      "id": 7,
       "name": "Chicken Tacos",
       "type": "Delicious",
       "ethnicity": "Mexican",
-      "id": 7
+      "barcode": "0037600443142"
     },
     {
+      "id": 8,
       "name": "Baked Potato",
       "type": "Side-item",
       "ethnicity": "Idahoian",
-      "id": 8
+      "barcode": "0084253242783"
     },
     {
-      "name": "lasagna",
-      "type": "pasta",
+      "id": 9,
+      "name": "Lasagna",
+      "type": "Pasta",
       "ethnicity": "Italian",
-      "id": 9
+      "barcode": "0011110111432"
+    },
+    {
+      "id": 10,
+      "name": "Chili",
+      "type": "White-chicken",
+      "ethnicity": "American",
+      "barcode": "0037600473569"
     }
   ],
   "drink": [
     {
-      "name": "sweet-tea",
-      "type": "brown",
+      "id": 1,
+      "name": "Sweet-Tea",
+      "type": "Brown",
       "ethnicity": "Bostonian",
-      "id": 1
+      "barcode": "0011150511391"
     }
   ]
 }
