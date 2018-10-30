@@ -5,6 +5,13 @@
   
 }
 
+#foodlist {
+   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
 .foodlist div {
   border:1px solid red;
   margin: 10px;
@@ -13,5 +20,4 @@
 
 .foodDiv {
   border: 1px solid red;
-
 }
