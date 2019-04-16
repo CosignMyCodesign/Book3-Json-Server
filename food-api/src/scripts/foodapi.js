@@ -32,11 +32,13 @@ const makeTheFoodPlease = () => {
     })
 }
 
-makeTheFoodPlease()
+const getLocalDataBtn = document.getElementById("btn-getLocalData");
+getLocalDataBtn.addEventListener("click", makeTheFoodPlease)
 
 
 // Fetching the additional info needed from the external API
-fetch("http://localhost:8088/food/")
+const additionalFood = () => {
+    fetch("http://localhost:8088/food/")
   //makes the data into json
   .then((foodData) => foodData.json())
   // this is going to loop over my array to get barcode and look up food in the other database
@@ -65,3 +67,7 @@ fetch("http://localhost:8088/food/")
         })
     })
   })
+}
+
+const getApiDataBtn = document.getElementById("btn-getApiData");
+getApiDataBtn.addEventListener("click", additionalFood)
